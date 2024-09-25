@@ -19,6 +19,10 @@ public class Jogador {
         this.premiado = premiado + 0.5;
     }
 
+    public double getPremiado() {
+        return premiado;
+    }
+
     @Override
     public String toString() {
         return "Jogador{" +
